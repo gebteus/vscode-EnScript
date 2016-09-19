@@ -1,0 +1,14 @@
+{
+    "class MainClass":{
+        "prefix":"class MainClass",
+        "body":[
+            "class MainClass",
+            "{",
+            "\tvoid Main(CaseClass c)",
+            "\t{",
+            "\t\t$0",
+            "\t}",
+            "}"
+        ]
+    }
+}

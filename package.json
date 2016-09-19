@@ -1,0 +1,43 @@
+{
+    "name":"enscript",
+    "displayName":"EnScript for Visual Studio Code",
+    "description":"EnCase EnScript language extension for Visual Studio Code.",
+    "version":"0.1.0",
+    "publisher":"gebteus",
+    "license":"MIT",
+    "icon":"icon.svg",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/gebteus/vscode-EnScript.git"
+    },
+    "engines":{
+        "vscode":"^1.0.0"
+    },
+    "categories":[
+        "Languages"
+    ],
+    "contributes":{
+        "languages":[
+            {
+                "id":"EnScript",
+                "extensions":[
+                    ".EnScript"
+                ],
+                "configuration":"language-configuration.json"
+            }
+        ],
+        "grammars":[
+            {
+                "language":"EnScript",
+                "scopeName":"source.EnScript",
+                "path":"syntaxes/EnScript.json"
+            }
+        ],
+        "snippets":[
+            {
+                "language":"EnScript",
+                "path":"snippets/snippets.json"
+            }
+        ]
+    }
+}
